@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>연락하기</title>
+    </head>
+    <body>
+        <h1>연락 상세내용</h1>
+        <p>070-1111-2222</p>
+        <p>myemail@naver.com</p>
+
+        <hr />
+
+        <form action="mailto:momo7777@naver.com" method="post" enctype="text/plain">
+            <label for="txt_name">성명 : </label>
+            <input type="text" name="name" /> <br />
+
+            <label for="txt_name">이메일 : </label>
+            <input type="email" name="email" /> <br />
+
+            <label for="txt_name">연락처(Tel) : </label>
+            <input type="tel" name="tel" /> <br />
+
+            <label for="txt_name">문의내용 : </label><br />
+            <textarea name="memo" id="" cols="30" rows="10"></textarea>
+
+            <br />
+
+            <input type="submit" value="문의접수" />
+        </form>
+    </body>
+</html>
